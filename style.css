@@ -1,0 +1,123 @@
+
+.landing-page{
+   background: url(https://www.ovsfashion.com/on/demandware.static/-/Sites/default/dw81bc0c86/2018-01-22/uomo/camicie_casual.jpg);
+     background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+  @media only screen and (max-width: 500px) {
+    #div6 {
+		display: none;
+    }
+}
+}
+li{
+    font-size: 20px;
+}
+.main-section-text{
+    padding-top: 200px;
+}
+.s-size{
+    letter-spacing: 6px;
+}
+hr{
+    width: 50%;
+}
+.b-left{
+    border-left: 1px solid black;
+}
+.btn,.form-inline{
+  align:center;
+}
+.jumbotron{
+  background-color:lightblue;
+  padding-top:-15px;
+}
+.logo-small {
+    color: #f4511e;
+    font-size: 50px;
+  display: flex;
+}
+
+.logo {
+    color: #f4511e;
+    font-size: 300px;
+}
+.container-fluid {
+  background-color:light-green;
+  background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+  padding:15px;
+   @media (max-width: 550px) {
+      display: none;
+    }
+}
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+.create{
+  margin-top:15px;
+}
+.panel {
+    border: 1px solid #f4511e; 
+    border-radius:0;
+    transition: box-shadow 0.5s;
+}
+
+.panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+
+.panel-footer .btn:hover {
+    border: 1px solid #f4511e;
+    background-color: #fff !important;
+    color: #f4511e;
+}
+
+.panel-heading {
+    color: #fff !important;
+    background-color: #f4511e !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.panel-footer {
+    background-color: #fff !important;
+}
+
+.panel-footer h3 {
+    font-size: 32px;
+}
+
+.panel-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.panel-footer .btn {
+    margin: 15px 0;
+    background-color: #f4511e;
+    color: #fff;
+}
+h3{
+  text-color:black;
+}
+ @media (max-height: 800px){
+    p{
+      font-size:10px;
+    }
+  }
+
+
